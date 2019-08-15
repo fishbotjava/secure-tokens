@@ -1,11 +1,15 @@
-package com.github.sarxos.securetoken;
+package com.github.fishbotjava.securetoken;
 
 import java.math.BigDecimal;
 import java.util.EnumSet;
 
 import org.junit.Test;
 
-import com.github.sarxos.securetoken.annotation.TokenPart;
+import com.github.fishbotjava.securetoken.CipherType;
+import com.github.fishbotjava.securetoken.Hardware;
+import com.github.fishbotjava.securetoken.Token;
+import com.github.fishbotjava.securetoken.Tokenizer;
+import com.github.fishbotjava.securetoken.annotation.TokenPart;
 
 
 public class TokenizerTest {

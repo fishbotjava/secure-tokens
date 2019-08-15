@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken;
+package com.github.fishbotjava.securetoken;
 
 import org.bouncycastle.crypto.Digest;
 import org.bouncycastle.crypto.ExtendedDigest;

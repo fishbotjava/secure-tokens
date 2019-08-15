@@ -1,6 +1,6 @@
-package com.github.sarxos.securetoken;
+package com.github.fishbotjava.securetoken;
 
-import com.github.sarxos.securetoken.annotation.TokenEntity;
+import com.github.fishbotjava.securetoken.annotation.TokenEntity;
 
 
 /**

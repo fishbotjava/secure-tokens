@@ -1,10 +1,10 @@
-package com.github.sarxos.securetoken;
+package com.github.fishbotjava.securetoken;
 
 import org.apache.commons.lang3.SystemUtils;
 
-import com.github.sarxos.securetoken.impl.Hardware4Mac;
-import com.github.sarxos.securetoken.impl.Hardware4Nix;
-import com.github.sarxos.securetoken.impl.Hardware4Win;
+import com.github.fishbotjava.securetoken.impl.Hardware4Mac;
+import com.github.fishbotjava.securetoken.impl.Hardware4Nix;
+import com.github.fishbotjava.securetoken.impl.Hardware4Win;
 
 
 public class Hardware {

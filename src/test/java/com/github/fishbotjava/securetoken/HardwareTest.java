@@ -1,8 +1,10 @@
-package com.github.sarxos.securetoken;
+package com.github.fishbotjava.securetoken;
 
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import com.github.fishbotjava.securetoken.Hardware;
 
 
 public class HardwareTest {

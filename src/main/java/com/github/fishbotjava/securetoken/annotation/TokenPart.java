@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken.annotation;
+package com.github.fishbotjava.securetoken.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

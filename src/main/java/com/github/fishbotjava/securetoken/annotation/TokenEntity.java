@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken.annotation;
+package com.github.fishbotjava.securetoken.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -7,7 +7,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import com.github.sarxos.securetoken.CipherType;
+import com.github.fishbotjava.securetoken.CipherType;
 
 
 @Inherited

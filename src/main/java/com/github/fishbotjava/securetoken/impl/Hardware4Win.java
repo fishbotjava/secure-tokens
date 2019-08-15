@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken.impl;
+package com.github.fishbotjava.securetoken.impl;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -22,7 +22,7 @@ public class Hardware4Win {
 		Runtime runtime = Runtime.getRuntime();
 		Process process = null;
 		try {
-			process = runtime.exec(new String[] { "wmic", "bios", "get", "serialnumber" });
+			process = runtime.exec(new String[] { "wmic", "csproduct", "get", "UUID" });
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}
@@ -40,7 +40,7 @@ public class Hardware4Win {
 		try {
 			while (sc.hasNext()) {
 				String next = sc.next();
-				if ("SerialNumber".equals(next)) {
+				if ("UUID".equals(next)) {
 					sn = sc.next().trim();
 					break;
 				}

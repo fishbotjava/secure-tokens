@@ -1,11 +1,11 @@
-package com.github.sarxos.securetoken.impl;
+package com.github.fishbotjava.securetoken.impl;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.github.sarxos.securetoken.Converter;
+import com.github.fishbotjava.securetoken.Converter;
 
 
 public class Converters {

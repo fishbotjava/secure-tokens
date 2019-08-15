@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken.impl;
+package com.github.fishbotjava.securetoken.impl;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

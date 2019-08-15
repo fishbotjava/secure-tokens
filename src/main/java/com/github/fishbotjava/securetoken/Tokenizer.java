@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken;
+package com.github.fishbotjava.securetoken;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -11,12 +11,12 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.bouncycastle.util.Strings;
 import org.bouncycastle.util.encoders.Base64;
 
-import com.github.sarxos.securetoken.annotation.TokenEntity;
-import com.github.sarxos.securetoken.annotation.TokenPart;
-import com.github.sarxos.securetoken.impl.CipherEngine;
-import com.github.sarxos.securetoken.impl.Converters;
-import com.github.sarxos.securetoken.impl.GZIP;
-import com.github.sarxos.securetoken.impl.Reflector;
+import com.github.fishbotjava.securetoken.annotation.TokenEntity;
+import com.github.fishbotjava.securetoken.annotation.TokenPart;
+import com.github.fishbotjava.securetoken.impl.CipherEngine;
+import com.github.fishbotjava.securetoken.impl.Converters;
+import com.github.fishbotjava.securetoken.impl.GZIP;
+import com.github.fishbotjava.securetoken.impl.Reflector;
 
 
 public class Tokenizer {

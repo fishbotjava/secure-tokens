@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken;
+package com.github.fishbotjava.securetoken;
 
 /**
  * Abstraction for translating string to any other type.

@@ -12,9 +12,10 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<groupId>com.github.sarxos</groupId>
+	<groupId>com.github.fishbotjava</groupId>
 	<artifactId>secure-tokens</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.2</version>
+	<packaging>jar</packaging>
 
 	<name>Web Token</name>
 	<description>

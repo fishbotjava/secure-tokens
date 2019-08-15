@@ -1,4 +1,4 @@
-package com.github.sarxos.securetoken.impl;
+package com.github.fishbotjava.securetoken.impl;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
@@ -22,7 +22,7 @@ import org.bouncycastle.crypto.macs.HMac;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.bouncycastle.util.Strings;
 
-import com.github.sarxos.securetoken.CipherType;
+import com.github.fishbotjava.securetoken.CipherType;
 
 
 public class CipherEngine {
